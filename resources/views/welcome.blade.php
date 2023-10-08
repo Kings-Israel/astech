@@ -69,12 +69,11 @@
         <div class="masthead-entry-3 text-right parallax" data-stellar-background-ratio="0.3">
             <div class="inner rel-1">
                 <div class="container">
-                    <h2 class="page-subtitle wow fadeInDown">Creative Digital Agency</h2>
-                    <h1 class="wow fadeInUp">Creative <span class="underline">Theme</span></h1>
+                    <h2 class="page-subtitle wow fadeInDown">Welcome to the Astech IT Hub.</h2>
+                    <h1 class="wow fadeInUp">Innovation <span class="underline">Starts Here</span></h1>
                     <div class="row">
                         <div class="col-md-8 col-md-offset-4 col-lg-6 col-lg-offset-6">
-                            <p>Tongue ribeye bacon swine frankfurter tri-tip andouille prosciutto. Meatball chuck jerky
-                                chicken pork belly doner ribeye pork loin beef. Pork belly boud</p>
+                            <h3 class="page-subtitle wow">Explore Our IT Ecosystem</h3>
                         </div>
                     </div>
                     <div class="inline-buttons">
@@ -103,32 +102,29 @@
                 <div class="row-advantage row">
                     <div class="col-advantage col-md-6 col-lg-4">
                         <div class="inner">
-                            <div class="media-left"><i class="icon-linear fa fa-clock-o"></i></div>
-                            <h3 class="media-right">User Interface</h3>
-                            <p>Lorem iapsum dolor sit amet, consectetur adipiscing elit. Aliquam vehicula mollis urna
-                                vel dignissim.</p>
+                            <div class="media-left"><i class="icon-linear fa fa-laptop"></i></div>
+                            <h3 class="media-right">Expertise</h3>
+                            <p>We Bring years of hands-on experience and passion for innovation to every project</p>
                         </div>
                     </div>
                     <div class="col-advantage col-md-6 col-lg-4">
                         <div class="inner">
                             <div class="media-left"><i class="icon-linear fa fa-diamond"></i></div>
-                            <h3 class="media-right">Professional Design</h3>
-                            <p>Lorem iapsum dolor sit amet, consectetur adipiscing elit. Aliquam vehicula mollis urna
-                                vel dignissim.</p>
+                            <h3 class="media-right">Innovation</h3>
+                            <p>Our IT Hub is breeding ground for creative ideas and cutting edge technologies</p>
                         </div>
                     </div>
                     <div class="col-advantage col-md-6 col-lg-4">
                         <div class="inner">
                             <div class="media-left"><i class="icon-linear fa fa-cube"></i></div>
-                            <h3 class="media-right">Landing Pages</h3>
-                            <p>Lorem iapsum dolor sit amet, consectetur adipiscing elit. Aliquam vehicula mollis urna
-                                vel dignissim.</p>
+                            <h3 class="media-right">Global Perpective</h3>
+                            <p>Our network and understanding of global tech trends keep us ahead of the curve</p>
                         </div>
                     </div>
-                    <div class="col-advantage col-md-6 col-lg-4">
+                    {{-- <div class="col-advantage col-md-6 col-lg-4">
                         <div class="inner">
                             <div class="media-left"><i class="icon-linear fa fa-lock"></i></div>
-                            <h3 class="media-right">Secure Web</h3>
+                            <h3 class="media-right">Confidentiality and Privacy</h3>
                             <p>Lorem iapsum dolor sit amet, consectetur adipiscing elit. Aliquam vehicula mollis urna
                                 vel dignissim.</p>
                         </div>
@@ -172,14 +168,14 @@
                             <p>Lorem iapsum dolor sit amet, consectetur adipiscing elit. Aliquam vehicula mollis urna
                                 vel dignissim.</p>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </section>
 
         <!-- Reviews -->
 
-        <section id="reviews" class="reviews-2 masked text-center section">
+        {{-- <section id="reviews" class="reviews-2 masked text-center section">
             <div class="container rel-1">
                 <div class="custom-controls">
                     <div class="thumbnail-pagination">
@@ -226,7 +222,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
 
         <!-- About product -->
 
@@ -234,50 +230,36 @@
             <div class="container">
                 <div class="row">
                     <div class="col-product-img col-lg-6 col-lg-push-6 wow fadeInRight" data-wow-duration="2s">
-                        <img alt="" class="img-responsive" src="{{ asset('assets/img/feature-img3.png') }}">
+                        <img alt="" class="img-responsive" src="{{ asset('assets/img/about.jpg') }}">
                     </div>
                     <div class="col-about-product col-lg-6 col-lg-pull-6">
                         <div class="row-advantage-2 row">
                             <div class="col-advantage col-md-6 col-lg-6">
                                 <div class="inner">
                                     <div class="media-left"><i class="fa fa-clock-o"></i></div>
-                                    <h3 class="media-right">Modern Design</h3>
-                                    <p>Integer eu metus at orci scelerisque rutrum. Vivamus condimentum, ipsum</p>
+                                    <h3 class="media-right">Digital Marketing</h3>
+                                    <p></p>
                                 </div>
                             </div>
                             <div class="col-advantage col-md-6 col-lg-6">
                                 <div class="inner">
                                     <div class="media-left"><i class="fa fa-cogs"></i></div>
-                                    <h3 class="media-right">Easy to Customize</h3>
-                                    <p>Integer eu metus at orci scelerisque rutrum. Vivamus condimentum, ipsum</p>
+                                    <h3 class="media-right">UI/UX Design</h3>
+                                    <p></p>
                                 </div>
                             </div>
                             <div class="col-advantage col-md-6 col-lg-6">
                                 <div class="inner">
-                                    <div class="media-left"><i class="fa fa-briefcase"></i></div>
-                                    <h3 class="media-right">Professional Portfolio</h3>
-                                    <p>Integer eu metus at orci scelerisque rutrum. Vivamus condimentum, ipsum</p>
+                                    <div class="media-left"><i class="fa fa-desktop"></i></div>
+                                    <h3 class="media-right">Web Development</h3>
+                                    <p></p>
                                 </div>
                             </div>
                             <div class="col-advantage col-md-6 col-lg-6">
                                 <div class="inner">
-                                    <div class="media-left"><i class="fa fa-diamond"></i></div>
-                                    <h3 class="media-right">Clean Code</h3>
-                                    <p>Integer eu metus at orci scelerisque rutrum. Vivamus condimentum, ipsum</p>
-                                </div>
-                            </div>
-                            <div class="col-advantage col-md-6 col-lg-6">
-                                <div class="inner">
-                                    <div class="media-left"><i class="fa fa-laptop"></i></div>
-                                    <h3 class="media-right">Browser Compatibility</h3>
-                                    <p>Integer eu metus at orci scelerisque rutrum. Vivamus condimentum, ipsum</p>
-                                </div>
-                            </div>
-                            <div class="col-advantage col-md-6 col-lg-6">
-                                <div class="inner">
-                                    <div class="media-left"><i class="fa fa-comments-o"></i></div>
-                                    <h3 class="media-right">Support Online</h3>
-                                    <p>Integer eu metus at orci scelerisque rutrum. Vivamus condimentum, ipsum</p>
+                                    <div class="media-left"><i class="fa fa-mobile"></i></div>
+                                    <h3 class="media-right">Mobile App Development</h3>
+                                    <p></p>
                                 </div>
                             </div>
                         </div>
@@ -461,49 +443,50 @@
             <div class="container">
                 <div class="row">
                     <header class="text-center col-md-8 col-md-offset-2">
-                        <h2>Our capatibilities</h2>
+                        <h2>Insudtries</h2>
                         <div class="delimiter-2"><img alt="" src="{{ asset('assets/img/delimiter.png') }}"></div>
-                        <p class="section-entry">Some of our recent work of the hundreds that we have for our customers
-                            around the world are displayed in Fusce lacinia arcu et nulla. Nulla vitae mauris non felis
-                            mollis faucipus.</p>
                     </header>
                 </div>
                 <div class="section-body">
                     <div class="row-base row">
                         <div class="col-spec col-base col-sm-6 col-md-3">
-                            <div class="chart" data-percent="25">
-                                <div class="chart-icon"><i class="fa fa-gears"></i></div>
+                            <div class="chart" data-percent="100">
+                                <div class="chart-icon"><i class="fa fa-book"></i></div>
                             </div>
                             <div class="spec-header">
-                                <h3 class="spec-title">Creative Design</h3>
-                                <p class="spec-type">Photoshop</p>
+                                <h3 class="spec-title">Education</h3>
                             </div>
                         </div>
                         <div class="col-spec col-base col-sm-6 col-md-3">
-                            <div class="chart" data-percent="50">
-                                <div class="chart-icon"><i class="fa fa-html5"></i></div>
+                            <div class="chart" data-percent="100">
+                                <div class="chart-icon"><i class="fa fa-lightbulb-o"></i></div>
                             </div>
                             <div class="spec-header">
-                                <h3 class="spec-title">Development</h3>
-                                <p class="spec-type">HTML5 / CSS3</p>
+                                <h3 class="spec-title">Start Ups</h3>
                             </div>
                         </div>
                         <div class="col-spec col-base col-sm-6 col-md-3">
-                            <div class="chart" data-percent="60">
-                                <div class="chart-icon"><i class="fa fa-coffee"></i></div>
+                            <div class="chart" data-percent="100">
+                                <div class="chart-icon"><i class="fa fa-truck"></i></div>
                             </div>
                             <div class="spec-header">
-                                <h3 class="spec-title">Marketing</h3>
-                                <p class="spec-type">Google Ads</p>
+                                <h3 class="spec-title">Supply Chain</h3>
                             </div>
                         </div>
                         <div class="col-spec col-base col-sm-6 col-md-3">
-                            <div class="chart" data-percent="75">
-                                <div class="chart-icon"><i class="fa fa-code"></i></div>
+                            <div class="chart" data-percent="100">
+                                <div class="chart-icon"><i class="fa fa-credit-card"></i></div>
                             </div>
                             <div class="spec-header">
-                                <h3 class="spec-title">Javascript</h3>
-                                <p class="spec-type">Javascript Ajax</p>
+                                <h3 class="spec-title">Ecommerce</h3>
+                            </div>
+                        </div>
+                        <div class="col-spec col-base col-sm-6 col-md-3">
+                            <div class="chart" data-percent="100">
+                                <div class="chart-icon"><i class="fa fa-dollar"></i></div>
+                            </div>
+                            <div class="spec-header">
+                                <h3 class="spec-title">Finance</h3>
                             </div>
                         </div>
                     </div>
@@ -519,19 +502,17 @@
                     <header class="text-center col-md-8 col-md-offset-2">
                         <h2>Why Choose us</h2>
                         <div class="delimiter-2"><img alt="" src="{{ asset('assets/img/delimiter.png') }}"></div>
-                        <p class="section-entry">Some of our recent work of the hundreds that we have for our customers
-                            around the world are displayed in Fusce lacinia arcu et nulla. Nulla vitae mauris non felis
-                            mollis faucipus.</p>
+                        <p class="section-entry">Get To Know Us Better</p>
                     </header>
                 </div>
                 <div class="section-body">
                     <div class="row">
                         <div class="col-feature-img2 col-md-6 wow fadeInLeft" data-wow-duration="2s">
-                            <img alt="" class="" src="{{ asset('assets/img/feature-img2.png') }}">
+                            <img alt="" class="" src="{{ asset('assets/img/Astec-hub-2.jpg') }}">
                         </div>
                         <div class="section-body-x2 col-feature col-md-6">
                             <h2 class="feature-title">
-                                Buldeing Brands on The Web
+                                Building Brands on The Web
                             </h2>
                             <p class="feature-subtitle">We Deliver High Quality Resolution Graphics</p>
                             <div class="title-space"></div>
@@ -541,18 +522,13 @@
                             <p>Pig prosciutto beef ribeye chuck, turducken short ribs capicola fatback kielbasa
                                 landjaeger leberkas shoulder sausage kevin. T-bone alcatra kevin beef ribs ham hock
                                 drumstick. T-bone ham beef boudin kielbasa turkey.</p>
-                            <a href="#" class="btn-lead btn-red btn wow swing">
-                                <span class="text">Purchased</span>
-                                <span class="flip-front">Purchased</span>
-                                <span class="flip-back">Start now</span>
-                            </a>
                         </div>
                     </div>
                 </div>
                 <div class="section-body-x2">
                     <div class="row">
                         <div class="col-feature-img2 col-md-6 col-md-push-6 wow fadeInRight" data-wow-duration="2s">
-                            <img alt="" class="" src="{{ asset('assets/img/feature-img4.png') }}">
+                            <img alt="" class="" src="{{ asset('assets/img/details.jpg') }}">
                         </div>
                         <div class="col-feature col-md-6 col-md-pull-6">
                             <div class="feature">
@@ -685,7 +661,7 @@
 
         <!-- Get Start -->
 
-        <section id="get-start" class="get-start masked text-white text-center" data-stellar-background-ratio="0.4">
+        {{-- <section id="get-start" class="get-start masked text-white text-center" data-stellar-background-ratio="0.4">
             <div class="container rel-1">
                 <h2 class="promo-title text-white wow fadeInDown">Unique experience</h2>
                 <div class="promo-subtitle wow fadeInUp">
@@ -706,19 +682,16 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
 
         <!-- Contact -->
 
-        <section id="contact" class="contact contact-2 section">
+        <section id="contact" class="contact masked contact-2 section">
             <div class="container">
                 <div class="row">
                     <header class="text-center col-md-8 col-md-offset-2">
-                        <h2>Contact</h2>
+                        <h2 class="text-white">Contact</h2>
                         <div class="delimiter-2"><img alt="" src="{{ asset('assets/img/delimiter.png') }}"></div>
-                        <p class="section-entry">Some of our recent work of the hundreds that we have for our customers
-                            around the world are displayed in Fusce lacinia arcu et nulla. Nulla vitae mauris non felis
-                            mollis faucipus.</p>
                     </header>
                 </div>
                 <div class="section-body">
@@ -812,7 +785,7 @@
                     <i class="fa fa-chevron-up"></i>
                 </a>
                 <div class="row-base row">
-                    <aside class="bottom-widget-posts col-footer col-base col-md-6 col-lg-4">
+                    <aside class="bottom-widget-posts col-footer col-base col-md-6 col-lg-8">
                         <h2 class="bottom-widget-title">News Post</h2>
                         <ul class="bottom-post-list">
                             <li>
@@ -847,7 +820,7 @@
                             </li>
                         </ul>
                     </aside>
-                    <aside class="bottom-widget-gallery col-footer col-base col-md-6 col-lg-4">
+                    {{-- <aside class="bottom-widget-gallery col-footer col-base col-md-6 col-lg-4">
                         <h2 class="bottom-widget-title">Favorites Flickr</h2>
                         <ul class="bottom-gallery-list">
                             <li>
@@ -905,24 +878,17 @@
                                 <span>View more</span>
                             </a>
                         </div>
-                    </aside>
+                    </aside> --}}
                     <aside class="bottom-widget-text col-footer col-base col-md-12 col-lg-4">
                         <h2 class="bottom-widget-title">About us</h2>
-                        <img alt="" class="img-responsive" src="{{ asset('assets/img/brand-white.png') }}">
+                        <img class="brand-white" alt="" src="{{ asset('assets/img/astech-brand.png') }}">
                         <div class="text-content">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vehicula mollis urna vel
-                                dignissim. Integer tincidunt viverra est, non congue.</p>
-                            <p>Sed dolor velit, convallis quis erat in, molestie eleifend enim. Integer eu metus at orci
-                                scelerisque rutrum. Vivamus condimentum, ipsum </p>
+                            <p>Ignite Your Developer journey by Diving into Astech Hub's World of Opportunities</p>
                         </div>
                         <div class="social social-round">
                             <a href="#" class="fa fa-facebook"></a>
                             <a href="#" class="fa fa-twitter"></a>
                             <a href="#" class="fa fa-linkedin"></a>
-                            <a href="#" class="fa fa-google-plus"></a>
-                            <a href="#" class="fa fa-pinterest-p"></a>
-                            <a href="#" class="fa fa-flickr"></a>
-                            <a href="#" class="fa fa-dribbble"></a>
                         </div>
                     </aside>
                 </div>
@@ -932,18 +898,15 @@
             <div class="container">
                 <div class="row-base row">
                     <div class="copy col-base col-md-6">
-                        © 2015. All rights reserved. Powered by WordPress: SuperShot by <a
-                            href="">PaulsonThemes</a>
+                        © {{ now()->format('Y') }}. All rights reserved. <a
+                            href="">Astech Hub</a>
                     </div>
                     <div class="col-base col-md-6">
                         <nav class="navbar-bottom">
                             <ul>
                                 <li><a href="#">About</a></li>
-                                <li><a href="#">Shop</a></li>
                                 <li><a href="#">Team</a></li>
-                                <li><a href="#">Pricing</a></li>
                                 <li><a href="#">Partners</a></li>
-                                <li><a href="#">Video</a></li>
                             </ul>
                         </nav>
                     </div>

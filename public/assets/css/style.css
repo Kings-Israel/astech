@@ -743,7 +743,7 @@ label.error{
 
 .icon-linear{
   color:#FC883C;
-  background: -webkit-linear-gradient(#febf28, #fa4951);
+  background: -webkit-linear-gradient(#38474E, #fa4951);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1603,7 +1603,7 @@ a.fa:focus{
 
 .masthead-entry-3{
   position: relative;
-  background-image: url(../img/bg/masthead3.jpg);
+  background-image: url(../img/global-tech.jpg);
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: cover;
