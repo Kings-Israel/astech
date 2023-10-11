@@ -33,7 +33,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a href="#top" class="brand js-target-scroll">
-                        <img class="brand-white" alt="" src="{{ asset('assets/img/astech-brand-dark.png') }}">
+                        <img class="brand-white" alt="" src="{{ asset('assets/img/astech-alt.png') }}">
                         <img class="brand-dark" alt="" src="{{ asset('assets/img/astech-brand-dark.png') }}">
                     </a>
                 </div>
