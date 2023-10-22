@@ -230,7 +230,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-product-img col-lg-6 col-lg-push-6 wow fadeInRight" data-wow-duration="2s">
-                        <img alt="" class="img-responsive" src="{{ asset('assets/img/about.jpg') }}">
+                        <img alt="" class="img-responsive" src="{{ asset('assets/img/bg/one.jpg') }}">
                     </div>
                     <div class="col-about-product col-lg-6 col-lg-pull-6">
                         <div class="row-advantage-2 row">
@@ -277,17 +277,15 @@
                         <h2 class="text-white">Our Portfolio Showcase</h2>
                         <div class="delimiter-2"><img alt="" src="{{ asset('assets/img/delimiter.png') }}"></div>
                         <p class="section-entry">Some of our recent work of the hundreds that we have for our customers
-                            around the world are displayed in Fusce lacinia arcu et nulla. Nulla vitae mauris non felis
-                            mollis faucipus.</p>
+                            around the world are displayed in here</p>
                     </header>
                 </div>
             </div>
             <ul class="filter">
                 <li class="active" data-filter="*"><a href="">All</a></li>
-                <li data-filter=".illustrator" class=""><a href="">Illustrator</a></li>
-                <li data-filter=".photoshop"><a href="">Photoshop</a></li>
-                <li data-filter=".website"><a href="">Website</a></li>
-                <li data-filter=".photography" class=""><a href="">Photography</a></li>
+                <li data-filter=".illustrator" class=""><a href="">Web Apps</a></li>
+                <li data-filter=".photoshop"><a href="">Mobile Apps</a></li>
+                <li data-filter=".website"><a href="">Solutions</a></li>
             </ul>
             <div class="js-iso">
                 <div class="grid-sizer"></div>
@@ -508,7 +506,8 @@
                 <div class="section-body">
                     <div class="row">
                         <div class="col-feature-img2 col-md-6 wow fadeInLeft" data-wow-duration="2s">
-                            <img alt="" class="" src="{{ asset('assets/img/Astec-hub-2.jpg') }}">
+                            {{-- <img alt="" class="" src="{{ asset('assets/img/Astec-hub-2.jpg') }}"> --}}
+                            <img alt="" class="" src="{{ asset('assets/img/bg/two.jpg') }}">
                         </div>
                         <div class="section-body-x2 col-feature col-md-6">
                             <h2 class="feature-title">
@@ -528,7 +527,7 @@
                 <div class="section-body-x2">
                     <div class="row">
                         <div class="col-feature-img2 col-md-6 col-md-push-6 wow fadeInRight" data-wow-duration="2s">
-                            <img alt="" class="" src="{{ asset('assets/img/details.jpg') }}">
+                            <img alt="" class="" src="{{ asset('assets/img/bg/three.jpg') }}">
                         </div>
                         <div class="col-feature col-md-6 col-md-pull-6">
                             <div class="feature">
@@ -585,7 +584,7 @@
                         <div class="col-base col-sm-6 col-md-3">
                             <figure class="team-profile-2">
                                 <div class="image-holder image-holder-gradient"><img alt=""
-                                        src="{{ asset('assets/img/team2/1.jpg') }}"></div>
+                                        src="{{ asset('assets/img/bg/nine.png') }}"></div>
                                 <figcaption>
                                     <div class="profile-info">
                                         <h3 class="profile-name">Norman Landon</h3>
@@ -603,7 +602,7 @@
                         <div class="col-base col-sm-6 col-md-3">
                             <figure class="team-profile-2">
                                 <div class="image-holder image-holder-gradient"><img alt=""
-                                        src="{{ asset('assets/img/team2/2.jp') }}g"></div>
+                                        src="{{ asset('assets/img/bg/eleven.png') }}"></div>
                                 <figcaption>
                                     <div class="profile-info">
                                         <h3 class="profile-name">Betty Novak</h3>
