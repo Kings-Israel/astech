@@ -4,12 +4,12 @@
 
 
   	/*-------------------------------------------------------------------------------
-	  Detect mobile device 
+	  Detect mobile device
 	-------------------------------------------------------------------------------*/
 
 
 
-	var mobileDevice = false; 
+	var mobileDevice = false;
 
 	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
 	  	$('html').addClass('mobile');
@@ -33,7 +33,7 @@
 		$('body').addClass('loaded');
 		$('.loader').fadeOut(400);
     	var wow = new WOW({
-		    offset: 200,          
+		    offset: 200,
 		    mobile: false
 		  }
 		);
@@ -53,15 +53,15 @@
 
 
 
-    $('.js-target-scroll').on('click', function() {
-        var target = $(this.hash);
-        if (target.length) {
-            $('html,body').animate({
-                scrollTop: (target.offset().top - affixPanelHeight + 1)
-            }, 1000);
-            return false;
-        }
-    });
+    // $('.js-target-scroll').on('click', function() {
+    //     var target = $(this.hash);
+    //     if (target.length) {
+    //         $('html,body').animate({
+    //             scrollTop: (target.offset().top - affixPanelHeight + 1)
+    //         }, 1000);
+    //         return false;
+    //     }
+    // });
 
 
 
@@ -82,7 +82,7 @@
 	/* Navbar 2 Affix */
 
 
-	
+
 	navbar2.affix({
 	  offset: {
 	    top:10
@@ -207,7 +207,7 @@
 		          animate:1000
 		        });
 	        }
-	    }); 
+	    });
 	});
 
 
@@ -225,7 +225,7 @@
     	pagination:false,
     	navigation:true,
     	navigationText:["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"]
-    	
+
 	});
 
 
@@ -236,19 +236,19 @@
 
 
 
-	$('.js-iso').each(function() {		
+	$('.js-iso').each(function() {
 		var $container = $(this);
 		$container.imagesLoaded( function(){
-			$container.isotope({		 
+			$container.isotope({
 				itemSelector: '.js-iso-item',
 				percentPosition: true,
-				layoutMode: 'masonry',	
+				layoutMode: 'masonry',
 				masonry: {
 				  columnWidth: '.grid-sizer'
-				}	
-			});	
+				}
+			});
 		});
-    }); 
+    });
 
 
 	$('.filter li').on('click', function() {
@@ -306,7 +306,7 @@
 		},100);
 	}
 
-	
+
 
 	reviewCarousel.trigger('owl.jumpTo',1);
 
@@ -373,11 +373,11 @@
 			            url:"mail.php",
 			            data: $(form).serialize(),
 			            success: function() {
-			                
+
 		                },
 
 		                error: function(){
-			            	
+
 			            }
 			        });
 			    }

@@ -1,22 +1,24 @@
 @extends('layouts.app')
 @section('content')
+@section('css')
+<style>
+    .masthead-entry-3 {
+        background-image: url("/assets/img/bg/services.jpg") !important;
+    }
+</style>
+@endsection
 <!-- Masthead -->
 <div class="masthead">
     <div class="masthead-entry-3 text-right parallax" data-stellar-background-ratio="0.3">
         <div class="inner rel-1">
             <div class="container">
-                <h2 class="page-subtitle wow fadeInDown">Welcome to the Astech IT Hub.</h2>
-                <h1 class="wow fadeInUp">Innovation <span class="underline">Starts Here</span></h1>
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-4 col-lg-6 col-lg-offset-6">
-                        <h3 class="page-subtitle wow">Explore Our IT Ecosystem</h3>
-                    </div>
-                </div>
+                <h1 class="wow fadeInUp">Innovation Meets Execution. We make technology work for you and not vice versa.</h1>
                 <div class="inline-buttons">
+                    <h3 class="text">We'd Like to catch up with you. Let's setup a meeting soon</h3>
                     <div class="row-base">
-                        <a href="#" class="col-base btn-lead btn-primary btn">
-                            <span class="text">Discovery</span>
-                            <span class="flip-front">Reach Out</span>
+                        <a href="#" class="col-base btn-lead btn-primary btn schedule-btn">
+                            <span class="text">We'd Like to catch up with you.</span>
+                            <span class="flip-front">Click here to schedule</span>
                             <span class="flip-back">Let's Talk</span>
                         </a>
                     </div>
@@ -35,30 +37,29 @@
                 <div class="col-advantage col-md-6 col-lg-4">
                     <div class="inner">
                         <div class="media-left"><i class="icon-linear fa fa-laptop"></i></div>
-                        <h3 class="media-right">Expertise</h3>
+                        <h3 class="media-right">Digital Marketing</h3>
                         <p>We Bring years of hands-on experience and passion for innovation to every project</p>
                     </div>
                 </div>
                 <div class="col-advantage col-md-6 col-lg-4">
                     <div class="inner">
                         <div class="media-left"><i class="icon-linear fa fa-diamond"></i></div>
-                        <h3 class="media-right">Innovation</h3>
+                        <h3 class="media-right">UiI/UX Design</h3>
                         <p>Our IT Hub is breeding ground for creative ideas and cutting edge technologies</p>
                     </div>
                 </div>
                 <div class="col-advantage col-md-6 col-lg-4">
                     <div class="inner">
                         <div class="media-left"><i class="icon-linear fa fa-cube"></i></div>
-                        <h3 class="media-right">Global Perpective</h3>
+                        <h3 class="media-right">Web Development</h3>
                         <p>Our network and understanding of global tech trends keep us ahead of the curve</p>
                     </div>
                 </div>
-                {{-- <div class="col-advantage col-md-6 col-lg-4">
+                <div class="col-advantage col-md-6 col-lg-4">
                     <div class="inner">
                         <div class="media-left"><i class="icon-linear fa fa-lock"></i></div>
-                        <h3 class="media-right">Confidentiality and Privacy</h3>
-                        <p>Lorem iapsum dolor sit amet, consectetur adipiscing elit. Aliquam vehicula mollis urna
-                            vel dignissim.</p>
+                        <h3 class="media-right">Mobile App Development</h3>
+                        <p>Lorem iapsum dolor sit amet, consectetur adipiscing elit. Aliquam vehicula mollis urna vel dignissim.</p>
                     </div>
                 </div>
                 <div class="col-advantage col-md-6 col-lg-4">
@@ -69,7 +70,7 @@
                             vel dignissim.</p>
                     </div>
                 </div>
-                <div class="col-advantage col-md-6 col-lg-4">
+                {{-- <div class="col-advantage col-md-6 col-lg-4">
                     <div class="inner">
                         <div class="media-left"><i class="icon-linear fa fa-shopping-cart"></i></div>
                         <h3 class="media-right">Ready Shopping</h3>

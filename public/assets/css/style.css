@@ -196,7 +196,6 @@ h2,
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color:#313131;
   margin:0;
 }
 
@@ -206,7 +205,7 @@ h3,
   font-size: 18px;
   line-height: 1.25;
   font-weight: 700;
-  color:#313131;
+  /* color:#313131; */
   margin-bottom: 15px;
 }
 
@@ -217,7 +216,7 @@ h4,
   font-weight: 700;
   text-transform: uppercase;
   margin:0;
-  color:#000;
+  /* color:#000; */
 }
 
 h2 a,
@@ -470,7 +469,7 @@ label.error{
 
 .flip-front{
   top:0;
-  background-color: #313131;
+  background-color: #DDA01F;
   color:#fff;
    -webkit-transform: rotateX(0deg) translateZ(25px);
        -ms-transform: rotateX(0deg) translateZ(25px);
@@ -875,7 +874,7 @@ a.fa:focus{
 
 .navbar-2{
   height: auto;
-  padding-top:40px;
+  /* padding-top:10px; */
   background-color: transparent;
 }
 
@@ -1054,7 +1053,7 @@ a.fa:focus{
 
 .navbar-nav{
   font-family: 'Avenir', sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   text-transform: uppercase;
   margin:0;
 }
@@ -1068,7 +1067,7 @@ a.fa:focus{
 }
 
 .navbar-nav li .fa{
-  font-size: 12px;
+  font-size: 14px;
   -webkit-transition:none;
        -o-transition:none;
          transition: none;
@@ -2941,8 +2940,8 @@ img.mfp-img{
 
 .get-start{
   padding: 15% 0;
-  background: url(../img/bg/getstart.jpg) 50% no-repeat;
-  background-size: cover;
+  /* background: url(../img/bg/getstart.jpg) 50% no-repeat;
+  background-size: cover; */
 }
 
 .get-start.masked:before{
@@ -3159,7 +3158,7 @@ img.mfp-img{
 
 .client img{
   opacity: 0.4;
-  max-width: 100%;
+  max-width: 70%;
   -webkit-transition: all .3s ease-out;
        -o-transition: all .3s ease-out;
           transition: all .3s ease-out;
